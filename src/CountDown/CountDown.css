@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.countdown-container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.countdown-display {
+  margin: 20px 0;
+}
+
+.countdown-display input {
+  padding: 8px;
+  width: 160px;
+  margin-bottom: 10px;
+}
+
+.countdown-display div {
+  font-size: 32px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.countdown button {
+  padding: 10px 16px;
+  margin: 5px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  color: white;
+}
+
+.countdown button:nth-child(1) { background-color: #28a745; } /* Start */
+.countdown button:nth-child(2) { background-color: #ffc107; } /* Pause */
+.countdown button:nth-child(3) { background-color: #dc3545; } /* Reset */
